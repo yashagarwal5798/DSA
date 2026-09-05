@@ -8,7 +8,7 @@ class Solution {
         {
             rightmin[i] = Math.min(nums[i], rightmin[i+1]);
         }
-        int leftmax =Integer.MIN_VALUE;
+        int leftmax =0;
         for(int i =0;i<=n-1;i++)
         {
             leftmax = Math.max(leftmax, nums[i]);
